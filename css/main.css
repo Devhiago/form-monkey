@@ -29,31 +29,34 @@ header h1{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 800px;
+    height: 650px;
 }
 .container-image{
     width: 550px;
-    height: 650px;
+    height: 500px;
     margin-left: -200px;
     border:none;
     overflow: hidden;
 
 }
 .container-image img{
-    width: 570px;
-    height: 660px;
+    width: 100%;
+    height: 100%;
     margin-left:-10px;
 }
 .form-container{
     width: 500px;
-    height: 650px;
+    height: 550px;
     margin:10px 0;
     margin-left:20px;
     background-color: #00000011;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: -5px 5px #0000006f;
     
+}
+textarea{
+    height: 60px;
 }
 .form-container form{
     display:flex;
@@ -101,4 +104,5 @@ textarea:focus{
 footer{
     width: 100vw;
     text-align: center;
+    margin-top: 25px;
 }
