@@ -737,9 +737,8 @@ footer{
         box-shadow: -5px 5px #0000006f;
         
     }
-    textarea{
-        height: 60px;
-    }
+    
+    
     .form-container form{
         display:flex;
         flex-direction: column;
@@ -770,6 +769,8 @@ footer{
         border: none;
         background-color: #f9e7739b;
         padding: 10px;
+        width: 435px;
+        height: 72px;
     }
     textarea:focus{
         border:1px solid #fec109;
